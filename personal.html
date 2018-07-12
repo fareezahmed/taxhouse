@@ -1,486 +1,619 @@
 <!doctype html>
 <html lang="en-gb">
 <!--<![endif]-->
+
 <head>
-<title>Personal Income Tax</title>
-<meta charset="utf-8">
-<!-- Meta -->
-<meta name="keywords" content="" />
-<meta name="author" content="">
-<meta name="robots" content="" />
-<meta name="description" content="" />
+  <title>Personal Income Tax</title>
+  <meta charset="utf-8">
+  <!-- Meta -->
+  <meta name="keywords" content="" />
+  <meta name="author" content="">
+  <meta name="robots" content="" />
+  <meta name="description" content="" />
 
-<!-- this styles only adds some repairs on idevices  -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- this styles only adds some repairs on idevices  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Favicon -->
-<link rel="shortcut icon" href="images/favicon.ico">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
 
-<!-- Google fonts - witch you want to use - (rest you can just remove) -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+  <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+    rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
 
-<!--[if lt IE 9]>
+  <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-<!-- ######### CSS STYLES ######### -->
+  <!-- ######### CSS STYLES ######### -->
 
-<link rel="stylesheet" href="css/reset.css" type="text/css" />
-<link rel="stylesheet" href="css/style.css" type="text/css" />
-<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 
-<!-- responsive devices styles -->
-<link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
+  <!-- responsive devices styles -->
+  <link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
 
-<!-- mega menu -->
-<link href="js/mainmenu/sticky.css" rel="stylesheet">
-<link href="js/mainmenu/bootstrap.min.css" rel="stylesheet">
-<link href="js/mainmenu/demo.css" rel="stylesheet">
-<link href="js/mainmenu/menu.css" rel="stylesheet">
+  <!-- mega menu -->
+  <link href="js/mainmenu/sticky.css" rel="stylesheet">
+  <link href="js/mainmenu/bootstrap.min.css" rel="stylesheet">
+  <link href="js/mainmenu/demo.css" rel="stylesheet">
+  <link href="js/mainmenu/menu.css" rel="stylesheet">
 
-<!-- revolution slider -->
+  <!-- revolution slider -->
 
-<!-- CSS STYLE-->
-<link rel="stylesheet" type="text/css" href="js/revolutionslider/css/style.css" media="screen" />
+  <!-- CSS STYLE-->
+  <link rel="stylesheet" type="text/css" href="js/revolutionslider/css/style.css" media="screen" />
 
-<!-- THE PREVIEW STYLE SHEETS, NO NEED TO LOAD IN YOUR DOM -->
-<link rel="stylesheet" type="text/css" href="css/noneed.css" media="screen" />
+  <!-- THE PREVIEW STYLE SHEETS, NO NEED TO LOAD IN YOUR DOM -->
+  <link rel="stylesheet" type="text/css" href="css/noneed.css" media="screen" />
 
 
-<!-- tabs -->
-<link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
-<link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs7.css">
+  <!-- tabs -->
+  <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
+  <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs7.css">
 
-<!-- simple line icons -->
-<link rel="stylesheet" type="text/css" href="css/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
+  <!-- simple line icons -->
+  <link rel="stylesheet" type="text/css" href="css/Simple-Line-Icons-Webfont/simple-line-icons.css" media="screen" />
 
-<!-- Remove the below comments to use your color option -->
-<!--<link rel="stylesheet" href="css/colors/blue.css" />-->
-<!--<link rel="stylesheet" href="css/colors/red.css" />-->
-<!--<link rel="stylesheet" href="css/colors/green.css" />-->
-<!--<link rel="stylesheet" href="css/colors/cyan.css" />-->
-<!--<link rel="stylesheet" href="css/colors/orange.css" />-->
-<!--<link rel="stylesheet" href="css/colors/liteblue.css" />-->
-<!--<link rel="stylesheet" href="css/colors/purple.css" />-->
-<!--<link rel="stylesheet" href="css/colors/bridge.css" />-->
-<!--<link rel="stylesheet" href="css/colors/yellow.css" />-->
-<!--<link rel="stylesheet" href="css/colors/darkred.css" />-->
+  <!-- Remove the below comments to use your color option -->
+  <!--<link rel="stylesheet" href="css/colors/blue.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/red.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/green.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/cyan.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/orange.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/liteblue.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/purple.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/bridge.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/yellow.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/darkred.css" />-->
 
-<!-- just remove the below comments witch bg patterns you want to use -->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-default.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-one.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-two.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-three.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-four.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-five.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-six.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-seven.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-eight.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-nine.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-ten.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-eleven.css" />-->
-<!--<link rel="stylesheet" href="css/bg-patterns/pattern-twelve.css" />-->
+  <!-- just remove the below comments witch bg patterns you want to use -->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-default.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-one.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-two.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-three.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-four.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-five.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-six.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-seven.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-eight.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-nine.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-ten.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-eleven.css" />-->
+  <!--<link rel="stylesheet" href="css/bg-patterns/pattern-twelve.css" />-->
 
 </head>
 
 <body>
-<div class="site_wrapper">
-  <header id="header"> 
-    
-    <!-- Top header bar -->
-    <div id="topHeader">
-      <div class="wrapper">
-        <div class="top_nav">
-          <div class="container">
-            <div class="left"> <a href="mailto:info@taxhouse.com.au"><i class="fa fa-envelope-o"></i> &nbsp;info@taxhouse.com.au</a> <span><i class="fa fa-phone"></i> 
-				&nbsp;+61 03 9350 3399</span> </div>
-            <div class="right">
-              <ul>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li class="last"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
+  <div class="site_wrapper">
+    <header id="header">
+
+      <!-- Top header bar -->
+      <div id="topHeader">
+        <div class="wrapper">
+          <div class="top_nav">
+            <div class="container">
+              <div class="left">
+                <a href="mailto:info@taxhouse.com.au">
+                  <i class="fa fa-envelope-o"></i> &nbsp;info@taxhouse.com.au</a>
+                <span>
+                  <i class="fa fa-phone"></i>
+                  &nbsp;+61 03 9350 3399</span>
+              </div>
+              <div class="right">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li class="last">
+                    <a href="#">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end right social links -->
+
             </div>
-            <!-- end right social links --> 
-            
           </div>
         </div>
       </div>
-    </div>
-    <!-- end top navigation -->
-    
-    <div id="trueHeader">
-      <div class="wrapper">
-        <div class="container"> 
-          
-          <!-- Logo -->
-          <div class="logo"> <a href="index.html" id="logo" style="left: 0px; top: 0px; height: 60px"></a></div>
-          <!-- Menu -->
-          <div class="menu_main">
-            <div class="navbar yamm navbar-default">
-              <div class="container">
-                <div class="navbar-header">
-                  <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1"  > <span>Menu</span>
-                    <button type="button" > <i class="fa fa-bars"></i></button>
-                  </div>
-                </div>
-                <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
-                  <ul class="nav navbar-nav">
-                    <li class="dropdown"> <a href="#" data-toggle="dropdown" class="dropdown-toggle active"> Personal</a>                     
-                    </li>
-                    <li class="dropdown"> <a href="business.html" >Business</a>
-                    
-                    </li>
-                    <!--end elements styles-->
-                    
-                    <li class="dropdown"> <a href="corporate.html"> Corporate</a>                     
-                
-                    </li>
+      <!-- end top navigation -->
 
-                    <li class="dropdown"> <a href="about.html">About Us</a>
-                    
-                    </li>
-                    <li class="dropdown"> <a href="contact.html">Contact</a>
-                    </li>
-                  </ul>
+      <div id="trueHeader">
+        <div class="wrapper">
+          <div class="container">
+
+            <!-- Logo -->
+            <div class="logo">
+              <a href="index.html" id="logo" style="left: 0px; top: 0px; height: 60px"></a>
+            </div>
+            <!-- Menu -->
+            <div class="menu_main">
+              <div class="navbar yamm navbar-default">
+                <div class="container">
+                  <div class="navbar-header">
+                    <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1">
+                      <span>Menu</span>
+                      <button type="button">
+                        <i class="fa fa-bars"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
+                    <ul class="nav navbar-nav">
+                      <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle active"> Personal</a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="business.html">Business</a>
+
+                      </li>
+                      <!--end elements styles-->
+
+                      <li class="dropdown">
+                        <a href="corporate.html"> Corporate</a>
+
+                      </li>
+
+                      <li class="dropdown">
+                        <a href="about.html">About Us</a>
+
+                      </li>
+                      <li class="dropdown">
+                        <a href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- end menu -->
+
+
           </div>
-          <!-- end menu --> 
- 
-          
         </div>
       </div>
-    </div>
-  </header>
-  <div class="clearfix"></div>
-  <div class="header_medium two">
-    <div class="container">
-      <h3 class="bigtext"><span>Lodge Your</span> Tax Returns With Us</h3>
-      <h3 class="smalltext"><span>Get</span> Your Deductions Right With Us</h3>
-    </div>
-  </div>
-  <!--end header medium-->
-  <div class="clearfix"></div>
-  <div class="section_holder46">
-    <div class="container">
-      <div class="pagetitle">
-        <h1>Personal Tax</h1>
+    </header>
+    <div class="clearfix"></div>
+    <div class="header_medium two">
+      <div class="container">
+        <h3 class="bigtext">
+          <span>Lodge Your</span> Tax Returns With Us</h3>
+        <h3 class="smalltext">
+          <span>Get</span> Your Deductions Right With Us</h3>
       </div>
-      <div class="pagenation">&nbsp;<a href="index.html">Home</a> <i>/</i> <a href="#">Pages</a> <i>/</i> Personal</div>
     </div>
-  </div>
-  <!--end pagenation-->
-  <div class="clearfix"></div>
+    <!--end header medium-->
+    <div class="clearfix"></div>
+    <div class="section_holder46">
+      <div class="container">
+        <div class="pagetitle">
+          <h1>Personal Tax</h1>
+        </div>
+        <div class="pagenation">&nbsp;
+          <a href="index.html">Home</a>
+          <i>/</i>
+          <a href="#">Pages</a>
+          <i>/</i> Personal</div>
+      </div>
+    </div>
+    <!--end pagenation-->
+    <div class="clearfix"></div>
 
- <div class="section_holder68">
-   <div class="container">
-      <p>
-        Taxhouse provides tax planning services to individual tax payer to minimize their tax liability in a way that is legally as possible as you are entitle to. The idea is that you pay all the income tax you have to but is not anymore than you should.
-      </p>
-      <br>
-      <br>
-      <p>
-        Optimising your tax planning unlocks enormous potential for your financial plan. In fact, getting the tax planning right is typically more important to your financial performance than just about any other aspect – including things like choosing the right investment. A good investment can become a negative if you find yourself with a bigger tax bill than what you need.
-      </p>
-      <br>
-      <br>
-      <p>
-        Australia’s taxation system is deliberately designed to encourage people to do some tasks and not others. This means that when we take advantage of quality tax planning we are doing exactly what the community wants us to do.
-      </p>
-      <br>
-      <br>
-      <p>
-        It certainly can be difficult to know exactly what the community wants from you. Australia’s taxation rules are complex – in fact, according to the government itself, each Australian faces a potential of 125 that they are liable to pay.
-      </p>
-      <br>
-      <br>
-      <p>
-        This makes it imperative that you seek a qualified good tax advice provided by someone who is legally allowed to provide it.
-      </p>
-      <br>
-      <br>
-      <div class="one_full">
-        <ul class="tabs7">
-          <li><a href="#example-7-tab-1" target="_self"> <h3>Personal Income Tax</h3></a></li>
-          <li><a href="#example-7-tab-2" target="_self"> <h3>Income &amp; Deductions</h3></a></li>
-          <li><a href="#example-7-tab-3" target="_self"> <h3>Income Tax Return</h3></a></li>
-        </ul>
-    
+    <div class="section_holder68">
+      <div class="container">
+        <p>
+          Taxhouse provides tax planning services to individual tax payer to minimize their tax liability in a way that is legally
+          as possible as you are entitle to. The idea is that you pay all the income tax you have to but is not anymore than
+          you should.
+        </p>
+        <br>
+        <br>
+        <p>
+          Optimising your tax planning unlocks enormous potential for your financial plan. In fact, getting the tax planning right
+          is typically more important to your financial performance than just about any other aspect – including things like
+          choosing the right investment. A good investment can become a negative if you find yourself with a bigger tax bill
+          than what you need.
+        </p>
+        <br>
+        <br>
+        <p>
+          Australia’s taxation system is deliberately designed to encourage people to do some tasks and not others. This means that
+          when we take advantage of quality tax planning we are doing exactly what the community wants us to do.
+        </p>
+        <br>
+        <br>
+        <p>
+          It certainly can be difficult to know exactly what the community wants from you. Australia’s taxation rules are complex –
+          in fact, according to the government itself, each Australian faces a potential of 125 that they are liable to pay.
+        </p>
+        <br>
+        <br>
+        <p>
+          This makes it imperative that you seek a qualified good tax advice provided by someone who is legally allowed to provide
+          it.
+        </p>
+        <br>
+        <br>
+        <div class="one_full">
+          <ul class="tabs7">
+            <li>
+              <a href="#example-7-tab-1" target="_self">
+                <h3>Personal Income Tax</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#example-7-tab-2" target="_self">
+                <h3>Income &amp; Deductions</h3>
+              </a>
+            </li>
+            <li>
+              <a href="#example-7-tab-3" target="_self">
+                <h3>Income Tax Return</h3>
+              </a>
+            </li>
+          </ul>
 
-        <div class="tabs-content7">
-          <div id="example-7-tab-1" class="tabs-panel7">          
-            <p>All tax planning services arranged by our firm meets this criterion. By having us arrange your tax planning, you can be sure that the management of your tax obligations complements all other elements of your financial plan. The tax impact of everything you do is thought through before we recommend you do anything.</p>
-            <br>
-            <p>We provide services to everyone’s circumstances like starting out, working, studying and student debt, people with disability, investing and coming to Australia.</p>
-            <p>We assist and advice the individual with the following activities:</p><BR>
 
-            <ul class="list">
-              <li><i class="fa fa-check"></i> Lodge your tax return</li>
-              <li><i class="fa fa-check"></i> What to claim taxable deductions</li>
-              <li><i class="fa fa-check"></i> What to declare as income for example, salary and sages, business income, dividend, rental income, etc.</li>
-              <li><i class="fa fa-check"></i> Find your lost super</li>
-              <li><i class="fa fa-check"></i> Get a tax file number</li>
-              <li><i class="fa fa-check"></i> Tell you the progress of return </li>
-              <li><i class="fa fa-check"></i> Assist you with paying your tax</li>
-              <li><i class="fa fa-check"></i> Assist you with Form filling &amp; declarations</li>
-            </ul>
-            <p>We provide a range of advice and guidance in relation to tax planning. We calulate tax and help individual tax payers comply with their tax obligations.</p>
-            <p>We act as your personal tax advisor.</p>
+          <div class="tabs-content7">
+            <div id="example-7-tab-1" class="tabs-panel7">
+              <p>All tax planning services arranged by our firm meets this criterion. By having us arrange your tax planning,
+                you can be sure that the management of your tax obligations complements all other elements of your financial
+                plan. The tax impact of everything you do is thought through before we recommend you do anything.</p>
+              <br>
+              <p>We provide services to everyone’s circumstances like starting out, working, studying and student debt, people
+                with disability, investing and coming to Australia.</p>
+              <p>We assist and advice the individual with the following activities:</p>
+              <BR>
 
-          </div>
-          <!-- end tab 1 -->
-          
-          <div id="example-7-tab-2" class="tabs-panel7">
-            <p>
-              An Individual pays income tax as per marginal tax rate during the financial year which is from July to June as one earns his  income which is called as “pay as you go” (PAYG).The amount of income tax and the tax rate you pay depends on how much you earn and you pay income tax from your taxable income you receive and when completing your annual tax return, you’re qualified  to claim deductions for some expenses that are directly related to your income.
-            </p>
-            <br>
-            <p>
-                We will calculate your income such as salary or wages, allowances, earnings, tips, director fees, Employer Lumpsum Payments, Employer termination payments, Australian government allowances and payments like new start, youth allowance and austudy payments, Australian government pensions and allowance, Australian annuity and superannuation income streams, Australian superannuation lumpsum payments, Attributable personal service income, dividends, rental income, business income and more.
-            </p>
-            <br>
-            <p>
-              We help you calculate your taxable income and help you claim offsets in your tax return. We will assist you claim deductions for the expenses that are directly related to your income. We subtract these allowable deductions from your total assessable income and calculate your taxable income so that you only pay tax on your taxable income. This may lead you being getting a refund from Australia Taxation Office (ATO).
-            </p>
-            
-            <br><p>We help you calulate your taxable income,We help you claim offsets in your tax return. We assist you claim deductions for the expenses that are directly related to earning your income. We subtract these 
-            
-            allowable deductions from your total income and calulate your taxable income – you only pay tax on your taxable 
-            
-            income.</p>
-          </div>
-          <!-- end tab 2 -->
-          
-          <div id="example-7-tab-3" class="tabs-panel7">
-            <p>
-              Taxhouse also assist individuals with the preparation of their personal income tax returns and help our individual clients to legally minimise their income tax liability and utilise tax effective strategies like negative gearing to help them grow their personal wealth.
-            </p>
-            <br>
-            <p>
-              Taxhouse recognises the importance of personal income tax returns and a significant number of our business clients started out in simple salary and wage "I" Returns. Many of these individuals started or purchased a business, became investors, share traders, established a self managed super fund or purchased investment properties which give a negatively geared property.
-            </p>
-            <br>
-            <p>
-              Our individual clients who are self-employed or sole trader now include:
-            </p>
-            <table>
+              <ul class="list">
+                <li>
+                  <i class="fa fa-check"></i> Lodge your tax return</li>
+                <li>
+                  <i class="fa fa-check"></i> What to claim taxable deductions</li>
+                <li>
+                  <i class="fa fa-check"></i> What to declare as income for example, salary and sages, business income, dividend, rental income,
+                  etc.</li>
+                <li>
+                  <i class="fa fa-check"></i> Find your lost super</li>
+                <li>
+                  <i class="fa fa-check"></i> Get a tax file number</li>
+                <li>
+                  <i class="fa fa-check"></i> Tell you the progress of return </li>
+                <li>
+                  <i class="fa fa-check"></i> Assist you with paying your tax</li>
+                <li>
+                  <i class="fa fa-check"></i> Assist you with Form filling &amp; declarations</li>
+              </ul>
+              <p>We provide a range of advice and guidance in relation to tax planning. We calulate tax and help individual
+                tax payers comply with their tax obligations.</p>
+              <p>We act as your personal tax advisor.</p>
+
+            </div>
+            <!-- end tab 1 -->
+
+            <div id="example-7-tab-2" class="tabs-panel7">
+              <p>
+                An Individual pays income tax as per marginal tax rate during the financial year which is from July to June as one earns
+                his income which is called as “pay as you go” (PAYG).The amount of income tax and the tax rate you pay depends
+                on how much you earn and you pay income tax from your taxable income you receive and when completing your
+                annual tax return, you’re qualified to claim deductions for some expenses that are directly related to your
+                income.
+              </p>
+              <br>
+              <p>
+                We will calculate your income such as salary or wages, allowances, earnings, tips, director fees, Employer Lumpsum Payments,
+                Employer termination payments, Australian government allowances and payments like new start, youth allowance
+                and austudy payments, Australian government pensions and allowance, Australian annuity and superannuation
+                income streams, Australian superannuation lumpsum payments, Attributable personal service income, dividends,
+                rental income, business income and more.
+              </p>
+              <br>
+              <p>
+                We help you calculate your taxable income and help you claim offsets in your tax return. We will assist you claim deductions
+                for the expenses that are directly related to your income. We subtract these allowable deductions from your
+                total assessable income and calculate your taxable income so that you only pay tax on your taxable income.
+                This may lead you being getting a refund from Australia Taxation Office (ATO).
+              </p>
+
+              <br>
+              <p>We help you calulate your taxable income,We help you claim offsets in your tax return. We assist you claim
+                deductions for the expenses that are directly related to earning your income. We subtract these allowable
+                deductions from your total income and calulate your taxable income – you only pay tax on your taxable income.
+
+              </p>
+            </div>
+            <!-- end tab 2 -->
+
+            <div id="example-7-tab-3" class="tabs-panel7">
+              <p>
+                Taxhouse also assist individuals with the preparation of their personal income tax returns and help our individual clients
+                to legally minimise their income tax liability and utilise tax effective strategies like negative gearing
+                to help them grow their personal wealth.
+              </p>
+              <br>
+              <p>
+                Taxhouse recognises the importance of personal income tax returns and a significant number of our business clients started
+                out in simple salary and wage "I" Returns. Many of these individuals started or purchased a business, became
+                investors, share traders, established a self managed super fund or purchased investment properties which
+                give a negatively geared property.
+              </p>
+              <br>
+              <p>
+                Our individual clients who are self-employed or sole trader now include:
+              </p>
+              <table>
                 <tr>
                   <td>
-                      •	Hairdressers                  
+                    • Hairdressers
                   </td>
                   <td>
-                      •	Mechanics
+                    • Mechanics
                   </td>
                   <td>
-                      •	Apprentices
+                    • Apprentices
                   </td>
                 </tr>
                 <tr>
-                    <td>
-                        •	Architects                  
-                    </td>
-                    <td>
-                        •	Doctors - GP's
-                    </td>
-                    <td>
-                        •	Fire Brigade Members
-                    </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          •	Artists                   
-                      </td>
-                      <td>
-                          •	Electricians
-                      </td>
-                      <td>
-                          •	Plumbers
-                      </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            •	Carpenters                  
-                        </td>
-                        <td>
-                            •	Tradesmen
-                        </td>
-                        <td>
-                            •	Medical Specialists
-                        </td>
-                      </tr>
-                      <tr>
-                          <td>
-                              •	Police Officers               
-                          </td>
-                          <td>
-                              •	Construction Workers
-                          </td>
-                          <td>
-                              •	Pharmacists
-                          </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                •	Nurses                  
-                            </td>
-                            <td>
-                                •	Physiotherapists
-                            </td>
-                            <td>
-                                •	Osteopaths
-                            </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  •	Waitresses                   
-                              </td>
-                              <td>
-                                  •	Pilots
-                              </td>
-                              <td>
-                                  •	Ambulance Officers
-                              </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    •	Taxi Drivers                 
-                                </td>
-                                <td>
-                                    •	Truck Drivers
-                                </td>
-                                <td>
-                                    •	Couriers
-                                </td>
-                              </tr>
-                              <tr>
-                                  <td>
-                                      •	Dentists        
-                                  </td>
-                                  <td>
-                                      •	Executives
-                                  </td>
-                                  <td>
-                                      •	Real Estate Sales
-                                  </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        •	Chefs                    
-                                    </td>
-                                    <td>
-                                        •	Sales Representatives
-                                    </td>
-                                    <td>
-                                        •	Engineers
-                                    </td>
-                                  </tr>
+                  <td>
+                    • Architects
+                  </td>
+                  <td>
+                    • Doctors - GP's
+                  </td>
+                  <td>
+                    • Fire Brigade Members
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Artists
+                  </td>
+                  <td>
+                    • Electricians
+                  </td>
+                  <td>
+                    • Plumbers
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Carpenters
+                  </td>
+                  <td>
+                    • Tradesmen
+                  </td>
+                  <td>
+                    • Medical Specialists
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Police Officers
+                  </td>
+                  <td>
+                    • Construction Workers
+                  </td>
+                  <td>
+                    • Pharmacists
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Nurses
+                  </td>
+                  <td>
+                    • Physiotherapists
+                  </td>
+                  <td>
+                    • Osteopaths
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Waitresses
+                  </td>
+                  <td>
+                    • Pilots
+                  </td>
+                  <td>
+                    • Ambulance Officers
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Taxi Drivers
+                  </td>
+                  <td>
+                    • Truck Drivers
+                  </td>
+                  <td>
+                    • Couriers
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Dentists
+                  </td>
+                  <td>
+                    • Executives
+                  </td>
+                  <td>
+                    • Real Estate Sales
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    • Chefs
+                  </td>
+                  <td>
+                    • Sales Representatives
+                  </td>
+                  <td>
+                    • Engineers
+                  </td>
+                </tr>
               </table>
-            <br>
-            <p>
-              For your convenience we offer you several ways to complete your personal income tax return includes:
-            </p>
-            <br>
-            <br>
-            <h4>
-              FACE TO FACE MEETING 
-            </h4>
-            <p>
-              This is our favourite option because we are pleased to meet with our clients and it leads to discussions about tax planning opportunities. Part of our client brief includes asset protection and wealth creation which is really best suited for a face to face meeting. Call or email us today and schedule your personal appointment with one of our tax specialists. If you’re not sure what to bring for the meeting, download our checklist for individual tax returns from the useful links and forms which section of our website. It also consists of checklists for rental properties, share traders and investors. In most cases, your return is complete before the end of the meeting and we electronically lodge, so you get your refund as soon as possible.
-            </p>
-            <br>
-            <br>
-            <h4>
-              E MAIL 
-            </h4>
-            <p>
-              If you prefer to do the whole thing online we will assist you by email. Simply scan your PAYG Payment Summaries and other related documentation and email it to us. We will contact you with any questions and email you the outcome. We can then deliver your completed tax return as a PDF. Please note, we don’t recommend this option for new clients who might have some unusual issues to discuss.
-            </p>
-            <br>
-            <br>
-            <h4>
-              TAX-by FAX
-            </h4>
-            <p>
-              If your schedule is too busy for a sit down meeting, you might consider our fax service. Contact the office to establish what documentation we need and answer a few questions on the phone and update our database. We'll prepare your return and send it to you promptly for signing and lodgement. Again, we don’t recommend this option for new clients.
-            </p>
-            <br>
-            <br>
-            <h4>
-              YEAR-ROUND SUPPORT 
-            </h4>
-            <p>
-              The buck doesn’t stop at tax time. We’re present all year around for advice – whether that’s about starting a new business or catching up on late tax returns – we are here for you.
-            </p>
-            <br>
-            <br>
-            <h4>MAXIMUM REFUND GUARANTEE</h4>
-            <p>It’s rare that we don’t perfect our paperwork, but if you find you’re entitled to a larger refund, we'll refund your preparation fee and file an amendment with the ATO.</p>
-            <br>
-            <br>
+              <br>
+              <p>
+                For your convenience we offer you several ways to complete your personal income tax return includes:
+              </p>
+              <br>
+              <br>
+              <h4>
+                FACE TO FACE MEETING
+              </h4>
+              <p>
+                This is our favourite option because we are pleased to meet with our clients and it leads to discussions about tax planning
+                opportunities. Part of our client brief includes asset protection and wealth creation which is really best
+                suited for a face to face meeting. Call or email us today and schedule your personal appointment with one
+                of our tax specialists. If you’re not sure what to bring for the meeting, download our checklist for individual
+                tax returns from the useful links and forms which section of our website. It also consists of checklists
+                for rental properties, share traders and investors. In most cases, your return is complete before the end
+                of the meeting and we electronically lodge, so you get your refund as soon as possible.
+              </p>
+              <br>
+              <br>
+              <h4>
+                E MAIL
+              </h4>
+              <p>
+                If you prefer to do the whole thing online we will assist you by email. Simply scan your PAYG Payment Summaries and other
+                related documentation and email it to us. We will contact you with any questions and email you the outcome.
+                We can then deliver your completed tax return as a PDF. Please note, we don’t recommend this option for new
+                clients who might have some unusual issues to discuss.
+              </p>
+              <br>
+              <br>
+              <h4>
+                TAX-by FAX
+              </h4>
+              <p>
+                If your schedule is too busy for a sit down meeting, you might consider our fax service. Contact the office to establish
+                what documentation we need and answer a few questions on the phone and update our database. We'll prepare
+                your return and send it to you promptly for signing and lodgement. Again, we don’t recommend this option
+                for new clients.
+              </p>
+              <br>
+              <br>
+              <h4>
+                YEAR-ROUND SUPPORT
+              </h4>
+              <p>
+                The buck doesn’t stop at tax time. We’re present all year around for advice – whether that’s about starting a new business
+                or catching up on late tax returns – we are here for you.
+              </p>
+              <br>
+              <br>
+              <h4>MAXIMUM REFUND GUARANTEE</h4>
+              <p>It’s rare that we don’t perfect our paperwork, but if you find you’re entitled to a larger refund, we'll refund
+                your preparation fee and file an amendment with the ATO.</p>
+              <br>
+              <br>
+            </div>
+            <!-- end tab 3 -->
+
+
           </div>
-          <!-- end tab 3 -->
-          
-          
+          <!-- end all tabs -->
         </div>
-        <!-- end all tabs --> 
+
+
+        <div class="clearfix divider_dashed3"></div>
       </div>
-      
-
-      <div class="clearfix divider_dashed3"></div>
-    </div> 
-  </div>
-  <!--end section holder 68-->
+    </div>
+    <!--end section holder 68-->
 
 
-  <div class="clearfix"></div>
-  <div class="footer">
+    <div class="clearfix"></div>
+    <div class="footer">
       <div class="container">
         <div class="one_fourth">
-          <div class="footer_logo"><h3 class="title">Tax House</h3>
-      </div>
-          <span class="address" style="color: #FFFFFF">Level 1, 420 Sydney Road, COBURG, VIC 3058, Australia.</span> 
-        <span class="address" style="color: #FFFFFF">Phone: +61 03 9350 3399</span> 
-        <span class="address" style="color: #FFFFFF">Fax: +61 03 8692 2800</span> 
-        <span class="address" style="color: #FFFFFF">info@taxhouse.com.au</span> </div>
-        <!--end item-->
-        
-        
-        <div class="one_fourth">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.9867429818632!2d144.96429261472792!3d-37.743455237795395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad644b4076b988f%3A0x7b6e59d5a384e238!2sLevel+1%2F420+Sydney+Rd%2C+Coburg+VIC+3058!5e0!3m2!1sen!2sau!4v1530188212925"  width="100%" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+          <div class="footer_logo">
+            <h3 class="title">Tax House</h3>
+          </div>
+          <span class="address" style="color: #FFFFFF">Level 1, 420 Sydney Road, COBURG, VIC 3058, Australia.</span>
+          <span class="address" style="color: #FFFFFF">Phone: +61 03 9350 3399</span>
+          <span class="address" style="color: #FFFFFF">Fax: +61 03 8692 2800</span>
+          <span class="address" style="color: #FFFFFF">info@taxhouse.com.au</span>
         </div>
         <!--end item-->
-        
-        
+
+
+        <div class="one_fourth">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.9867429818632!2d144.96429261472792!3d-37.743455237795395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad644b4076b988f%3A0x7b6e59d5a384e238!2sLevel+1%2F420+Sydney+Rd%2C+Coburg+VIC+3058!5e0!3m2!1sen!2sau!4v1530188212925"
+            width="100%" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+        <!--end item-->
+
+
         <div class="divider_line"></div>
         <div class="one_fourth">
           <div class="social_icons_holder">
             <ul class="social_icons">
-              <li><a href="#"class="active"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#" class="last"><i class="fa fa-linkedin"></i></a></li>
+              <li>
+                <a href="#" class="active">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="last">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <!--end item-->
-        
+
         <div class="one_half">
           <div class="quick_links_holder">
             <ul class="quick_links">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="personal.html">Personal</a></li>
-              <li><a href="business.html">Business</a></li>
-              <li><a href="corporate.html">Corporate</a></li>
-              <li><a href="contact.html" class="last">Contact Us</a></li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="personal.html">Personal</a>
+              </li>
+              <li>
+                <a href="business.html">Business</a>
+              </li>
+              <li>
+                <a href="corporate.html">Corporate</a>
+              </li>
+              <li>
+                <a href="contact.html" class="last">Contact Us</a>
+              </li>
             </ul>
           </div>
         </div>
         <!--end item-->
-        
+
         <!-- <div class="one_fourth last">
           <div class="newsletter">
             <form method="get" action="index.html">
@@ -489,43 +622,49 @@
             </form>
           </div>
         </div> -->
-        <!--end item--> 
-        
+        <!--end item-->
+
       </div>
+    </div>
+    <!--end footer-->
+
+
+    <div class="copyrights">
+      <div class="container">
+        <span>
+          <strong>Copyright &copy; 2014 l Tax House</strong>
+        </span>
+      </div>
+    </div>
+    <!--end copyrights-->
+
+    <a href="#" class="scrollup"></a>
+    <!-- end scroll to top of the page-->
+
   </div>
-  <!--end footer-->
 
-  
-  <div class="copyrights">
-    <div class="container"><span><strong>Copyright &copy; 2014 l Tax House</strong></span></div>
-  </div>
-  <!--end copyrights--> 
-  
-  <a href="#" class="scrollup"></a><!-- end scroll to top of the page--> 
+  <!-- ######### JS FILES ######### -->
+  <!-- get jQuery from the google apis -->
+  <script type="text/javascript" src="js/universal/jquery.js"></script>
 
-</div>
+  <!-- style switcher -->
+  <script src="js/style-switcher/jquery-1.js"></script>
+  <script src="js/style-switcher/styleselector.js"></script>
 
-<!-- ######### JS FILES ######### --> 
-<!-- get jQuery from the google apis --> 
-<script type="text/javascript" src="js/universal/jquery.js"></script> 
+  <!-- mega menu -->
+  <script src="js/mainmenu/bootstrap.min.js"></script>
+  <script src="js/mainmenu/customeUI.js"></script>
 
-<!-- style switcher --> 
-<script src="js/style-switcher/jquery-1.js"></script> 
-<script src="js/style-switcher/styleselector.js"></script> 
+  <!-- scroll up -->
+  <script src="js/scrolltotop/totop.js" type="text/javascript"></script>
 
-<!-- mega menu --> 
-<script src="js/mainmenu/bootstrap.min.js"></script> 
-<script src="js/mainmenu/customeUI.js"></script> 
+  <!-- sticky menu -->
+  <script type="text/javascript" src="js/mainmenu/sticky.js"></script>
+  <script type="text/javascript" src="js/mainmenu/modernizr.custom.75180.js"></script>
 
-<!-- scroll up --> 
-<script src="js/scrolltotop/totop.js" type="text/javascript"></script> 
-
-<!-- sticky menu --> 
-<script type="text/javascript" src="js/mainmenu/sticky.js"></script> 
-<script type="text/javascript" src="js/mainmenu/modernizr.custom.75180.js"></script>
-
-<!-- tabs --> 
-<script src="js/tabs/assets/js/responsive-tabs.min.js" type="text/javascript"></script> 
+  <!-- tabs -->
+  <script src="js/tabs/assets/js/responsive-tabs.min.js" type="text/javascript"></script>
 
 </body>
+
 </html>
