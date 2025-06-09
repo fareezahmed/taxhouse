@@ -7827,11 +7827,14 @@ a.knowmore_but:hover {
     margin-bottom: 40px;
 }
 
+.tax-agent-services-act {
+	padding: 50px 25px;
+}
 
-.address_info a {
+.address_info a, .tax-agent-services-act a {
 	color:#fdce16;
 }
-.address_info a:hover {
+.address_info a:hover, .tax-agent-services-act a:hover {
 	color:#161616;
 }
 .google-map {
